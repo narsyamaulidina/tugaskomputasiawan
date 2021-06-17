@@ -49,7 +49,8 @@
 	</table>
 	
 </div>
-
+	
+//coding add barang
 
     <!-- ============ MODAL ADD BARANG =============== -->
         <div class="modal fade" id="modal_add_new" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
