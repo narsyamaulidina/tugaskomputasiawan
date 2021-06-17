@@ -10,7 +10,9 @@ class Penitipan extends CI_Controller {
 		$x['data']=$this->m_penitipan->show_penitipan();
 		$this->load->view('v_penitipan',$x);
 	}
-
+	
+// fungsi tombol simpan edit dan hapus
+	
 	function simpan_penitipan(){
 		$kode_barang=$this->input->post('kode_barang');
 		$penitip_barang=$this->input->post('penitip_barang');
